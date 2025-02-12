@@ -1,6 +1,4 @@
 spring:
-    application:
-        name: docker-compose
     docker:
         compose:
-            lifecycle-management: start-only
+            lifecycle-management: "start-only"
